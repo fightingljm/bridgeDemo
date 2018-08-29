@@ -389,6 +389,8 @@ android {
 
 ### 编写Native模块*
 
+#### 创建原生模块
+
 - 建一个中间访问对象 --- 新建一个BaiduLBS类继承ReactContextBaseJavaModule. 声明一个startLocation()的方法.供给RN调用,参数Callback是用于回调js的对象.我们再定位成功后要调用它.注意方法的上面必须加上 @ReactMethod注解.具体的调用定位请参考代码吧.然后重写GetName方法.return的值就是rn中调用的组件.
 
 ```java
@@ -561,6 +563,8 @@ class AnExampleReactPackage implements ReactPackage {
 }
 ```
 
+#### 注册模块
+
 - 将ReactPackage对象加载到MainApplication中 --- 在MainApplication中的getPackages方法中添加AnExampleReactPackage.代码如下
 
 ```java
@@ -701,4 +705,9 @@ poi= : 11610384699328539360 富力中心-A座 0.99
 poi= : 9890996776878967245 天津G公寓 0.99
 poi= : 6858514465372782229 天津国际贸易中心-B座 0.99
 ```
+
+
+参考地址：
+- https://www.jianshu.com/p/aeaf6951a0b8
+- https://www.jianshu.com/p/670bbad853f6
 
