@@ -16,14 +16,22 @@ import {
 
 let CalendarManager = NativeModules.CalendarManager;
 let ToastExample = NativeModules.ToastExample;
+let MyLBS = NativeModules.MyLBS;
 
 export default class App extends Component<{}> {
+  state = {
+    location: null,
+  }
   componentDidMount(){
     if (Platform.OS==='android'){
       ToastExample.show("Awesome", ToastExample.SHORT);
+      MyLBS.startLocation((location) => {
+        this.setState({ location: location })
+      });
     }
   }
   render() {
+    const { location } = this.state
     return (
       <View style={styles.container}>
         <Text style={styles.welcome} onPress={() => Platform.OS==='ios' && this.passValueToNativeOne()}>点击往原生传字符串</Text>
@@ -32,6 +40,11 @@ export default class App extends Component<{}> {
         <Text style={styles.welcome} onPress={() => Platform.OS==='ios' && this.callBackOne()}>点击调原生+回调</Text>
         <Text style={styles.welcome} onPress={() => Platform.OS==='ios' && this.callBackTwo()}>Promises</Text>
         <Text style={styles.welcome} onPress={() => Platform.OS==='ios' && this.useNativeValue()}>使用原生定义的常量</Text>
+        <Text style={styles.welcome}>
+          {
+            location ? location : 'bug'
+          }
+        </Text>
       </View>
     );
   }
