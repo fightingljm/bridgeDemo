@@ -328,19 +328,19 @@ export default class App extends Component<{}> {
 
 ## Android百度定位SDK 桥接 RN
 
-- 申请认证成为百度开发者 
+### 申请认证成为百度开发者 
  
 参考地址
 `http://lbsyun.baidu.com/apiconsole/key`
 
-- 下载基础开发包并导入android Studio 
+### 下载基础开发包并导入android Studio 
 
 参考地址
 `http://lbsyun.baidu.com/index.php?title=sdk/download&action#selected=mapsdk_basicmap,mapsdk_searchfunction,mapsdk_lbscloudsearch,mapsdk_calculationtool,mapsdk_radar`
 
-下载后的解压包里有一个叫libs的文件夹，将文件中的libs复制到项目中的App文件夹下，
+- 下载后的解压包里有一个叫libs的文件夹，将文件中的libs复制到项目中的App文件夹下，
 
-打开APP文件夹下的build.Gradle,在加入如下代码.
+- 打开APP文件夹下的build.Gradle,在加入如下代码.
 
 ```
 android {
@@ -353,7 +353,7 @@ android {
 }
 ```
 
-打开AndroidManifest文件,在application标签中添加服务和ak秘钥.
+- 打开AndroidManifest文件,在application标签中添加服务和ak秘钥.
 
 ```xml
 <service
@@ -365,7 +365,7 @@ android {
             android:value="xr*************q0Q1" />
 ```
 
-添加权限
+- 添加权限
 
 ```xml
     <!-- 这个权限用于进行网络定位-->
@@ -387,9 +387,9 @@ android {
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
 ```
 
-- 编写Native模块*
+### 编写Native模块*
 
-1.建一个中间访问对象 --- 新建一个BaiduLBS类继承ReactContextBaseJavaModule. 声明一个startLocation()的方法.供给RN调用,参数Callback是用于回调js的对象.我们再定位成功后要调用它.注意方法的上面必须加上 @ReactMethod注解.具体的调用定位请参考代码吧.然后重写GetName方法.return的值就是rn中调用的组件.
+- 建一个中间访问对象 --- 新建一个BaiduLBS类继承ReactContextBaseJavaModule. 声明一个startLocation()的方法.供给RN调用,参数Callback是用于回调js的对象.我们再定位成功后要调用它.注意方法的上面必须加上 @ReactMethod注解.具体的调用定位请参考代码吧.然后重写GetName方法.return的值就是rn中调用的组件.
 
 ```java
 // BaiduLBS.java
@@ -520,7 +520,7 @@ public class BaiduLBS  extends ReactContextBaseJavaModule {
 }
 ```
 
-2.建一个ReactPackage对象 --- 新建一个AnExampleReactPackage类实现ReactPackage接口.并在createNativeModules方法中加载BaiduLBS类.
+- 建一个ReactPackage对象 --- 新建一个AnExampleReactPackage类实现ReactPackage接口.并在createNativeModules方法中加载BaiduLBS类.
 
 ```java
 // AnExampleReactPackage.java
@@ -561,7 +561,7 @@ class AnExampleReactPackage implements ReactPackage {
 }
 ```
 
-3.将ReactPackage对象加载到MainApplication中 --- 在MainApplication中的getPackages方法中添加AnExampleReactPackage.代码如下
+- 将ReactPackage对象加载到MainApplication中 --- 在MainApplication中的getPackages方法中添加AnExampleReactPackage.代码如下
 
 ```java
 package com.bridgedemo;
@@ -613,7 +613,7 @@ public class MainApplication extends Application implements ReactApplication {
 }
 ```
 
-- reactNative调用Native模块*
+### React-Native调用Native模块*
 
 ```js
 /**
@@ -674,9 +674,31 @@ const styles = StyleSheet.create({
 });
 ```
 
-- Run起来
+### Run起来
+
+- 执行命令
 
 ```
 $ react-native run-android
+```
+
+- result
+
+```
+time : 2018-08-29 14:42:39
+error code : 161
+latitude : 39.118968
+lontitude : 117.223268
+radius : 40.0
+addr : 中国天津市河西区曲阜道85号
+operationers : 0
+describe : 网络定位成功
+locationdescribe : 在富力中心附近
+poilist size = : 5
+poi= : 15699082498546487215 富力中心 0.99
+poi= : 17993935520052281343 亚太大厦 0.99
+poi= : 11610384699328539360 富力中心-A座 0.99
+poi= : 9890996776878967245 天津G公寓 0.99
+poi= : 6858514465372782229 天津国际贸易中心-B座 0.99
 ```
 
