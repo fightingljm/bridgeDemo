@@ -655,7 +655,7 @@ export default class App extends Component<{}> {
       <View style={styles.container}>
         <Text style={styles.welcome}>
           {
-            location ? location : 'bug or cancel'
+            location ? location : 'ios location or cancel'
           }
         </Text>
       </View>

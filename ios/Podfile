@@ -1,0 +1,46 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'bridgeDemo' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for bridgeDemo
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  pod 'React', path: '../node_modules/react-native', :subspecs => [
+    'Core',
+    'RCTActionSheet',
+    'RCTAnimation',
+    'RCTGeolocation',
+    'RCTImage',
+    'RCTLinkingIOS',
+    'RCTNetwork',
+    'RCTSettings',
+    'RCTText',
+    'RCTVibration',
+    'RCTWebSocket',
+    'DevSupport'
+  ]
+
+  pod 'TTLock'
+  pod 'BaiduMapKit' #百度地图SDK
+
+  target 'bridgeDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'bridgeDemo-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for bridgeDemo-tvOS
+
+  target 'bridgeDemo-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

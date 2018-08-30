@@ -17,8 +17,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   NSURL *jsCodeLocation;
-
   jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
+
+  _mapManager = [[BMKMapManager alloc]init];
+  BOOL ret = [_mapManager start:@"nyvHGseeurSTpjiCDzddqWd5R6TxxK2b" generalDelegate:nil];
+
+  if (!ret) {
+    NSLog(@"manager start failed!");
+  } else {
+    NSLog(@"manager start success!");
+  }
 
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                       moduleName:@"bridgeDemo"

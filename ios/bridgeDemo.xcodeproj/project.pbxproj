@@ -13,6 +13,31 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* bridgeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* bridgeDemoTests.m */; };
+		0492ED5321369E1100EFC97A /* TTLock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492ED2D21369E1100EFC97A /* TTLock.framework */; };
+		0492ED5421369E1100EFC97A /* TTLock.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0492ED2D21369E1100EFC97A /* TTLock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0492ED5721369E4A00EFC97A /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492ED5621369E4A00EFC97A /* CoreBluetooth.framework */; };
+		0492ED5A2136A0F400EFC97A /* TTLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0492ED592136A0F400EFC97A /* TTLock.m */; };
+		0492EDB02137835500EFC97A /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492ED842137835400EFC97A /* BaiduMapAPI_Map.framework */; };
+		0492EDB12137835500EFC97A /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492EDAA2137835400EFC97A /* BaiduMapAPI_Utils.framework */; };
+		0492EDB22137835500EFC97A /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492EDAB2137835400EFC97A /* BaiduMapAPI_Base.framework */; };
+		0492EDB32137835500EFC97A /* BaiduMapAPI_Radar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492EDAC2137835400EFC97A /* BaiduMapAPI_Radar.framework */; };
+		0492EDB42137835500EFC97A /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492EDAD2137835400EFC97A /* BaiduMapAPI_Location.framework */; };
+		0492EDB52137835500EFC97A /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492EDAE2137835400EFC97A /* BaiduMapAPI_Cloud.framework */; };
+		0492EDB62137835500EFC97A /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492EDAF2137835500EFC97A /* BaiduMapAPI_Search.framework */; };
+		0492EDB82137837400EFC97A /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492EDB72137837400EFC97A /* libstdc++.6.0.9.tbd */; };
+		0492EDBA2137838C00EFC97A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492EDB92137838C00EFC97A /* CoreTelephony.framework */; };
+		0492EDBC2137839600EFC97A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492EDBB2137839600EFC97A /* libsqlite3.0.tbd */; };
+		0492EDBE213783B100EFC97A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492EDBD213783B100EFC97A /* Security.framework */; };
+		0492EDC0213783CA00EFC97A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492EDBF213783C900EFC97A /* CoreGraphics.framework */; };
+		0492EDC2213783D600EFC97A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492EDC1213783D600EFC97A /* SystemConfiguration.framework */; };
+		0492EDC4213783EE00EFC97A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492EDC3213783EE00EFC97A /* OpenGLES.framework */; };
+		0492EDC6213783FC00EFC97A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492EDC5213783FC00EFC97A /* QuartzCore.framework */; };
+		0492EDC82137840600EFC97A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492EDC72137840600EFC97A /* CoreLocation.framework */; };
+		0492EDCB2137843200EFC97A /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492EDC92137843200EFC97A /* libssl.a */; };
+		0492EDCC2137843200EFC97A /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0492EDCA2137843200EFC97A /* libcrypto.a */; };
+		0492EDD0213784D800EFC97A /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0492EDCF213784D700EFC97A /* mapapi.bundle */; };
+		0492EE2D2137D86900EFC97A /* RCTBDMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0492EE2C2137D86900EFC97A /* RCTBDMap.m */; };
+		0492EE2E2137D8B300EFC97A /* RCTBDMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0492EDD32137865100EFC97A /* RCTBDMapManager.m */; };
 		04F199BF2133E32800CE11A6 /* CalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F199BE2133E32800CE11A6 /* CalendarManager.m */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
@@ -35,9 +60,13 @@
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* bridgeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* bridgeDemoTests.m */; };
+		41D1BFD3B1653B2020E15C5F /* libPods-bridgeDemo-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8129A126841F8388F118F7D4 /* libPods-bridgeDemo-tvOSTests.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		AA53C456C8622CD87E52DA65 /* libPods-bridgeDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDFCEBEDE0B32F1406127A2 /* libPods-bridgeDemoTests.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		B552F72AF3EADF5526A9E0EA /* libPods-bridgeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC786681ACF3853A530D5F52 /* libPods-bridgeDemo.a */; };
+		EB8A0F18F13B3EA98DBFA603 /* libPods-bridgeDemo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B178229BCE03600BFE2F218 /* libPods-bridgeDemo-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -316,6 +345,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0492ED5521369E1100EFC97A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0492ED5421369E1100EFC97A /* TTLock.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
@@ -326,8 +369,36 @@
 		00E356EE1AD99517003FC87E /* bridgeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bridgeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* bridgeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bridgeDemoTests.m; sourceTree = "<group>"; };
+		0492ED2D21369E1100EFC97A /* TTLock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TTLock.framework; sourceTree = "<group>"; };
+		0492ED5621369E4A00EFC97A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		0492ED592136A0F400EFC97A /* TTLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTLock.m; sourceTree = "<group>"; };
+		0492ED5B2136A10E00EFC97A /* TTLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTLock.h; sourceTree = "<group>"; };
+		0492ED842137835400EFC97A /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		0492EDAA2137835400EFC97A /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		0492EDAB2137835400EFC97A /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		0492EDAC2137835400EFC97A /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
+		0492EDAD2137835400EFC97A /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
+		0492EDAE2137835400EFC97A /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		0492EDAF2137835500EFC97A /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		0492EDB72137837400EFC97A /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		0492EDB92137838C00EFC97A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0492EDBB2137839600EFC97A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		0492EDBD213783B100EFC97A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0492EDBF213783C900EFC97A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0492EDC1213783D600EFC97A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0492EDC3213783EE00EFC97A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0492EDC5213783FC00EFC97A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0492EDC72137840600EFC97A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0492EDC92137843200EFC97A /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = Pods/BaiduMapKit/BaiduMapKit/thirdlibs/libssl.a; sourceTree = "<group>"; };
+		0492EDCA2137843200EFC97A /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = Pods/BaiduMapKit/BaiduMapKit/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
+		0492EDCF213784D700EFC97A /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapAPI_Map.framework/Resources/mapapi.bundle; sourceTree = "<group>"; };
+		0492EDD1213785F400EFC97A /* RCTBDMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTBDMap.h; sourceTree = "<group>"; };
+		0492EDD22137862B00EFC97A /* RCTBDMapManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTBDMapManager.h; sourceTree = "<group>"; };
+		0492EDD32137865100EFC97A /* RCTBDMapManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTBDMapManager.m; sourceTree = "<group>"; };
+		0492EE2C2137D86900EFC97A /* RCTBDMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTBDMap.m; sourceTree = "<group>"; };
 		04F199882133E2FA00CE11A6 /* CalendarManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarManager.h; sourceTree = "<group>"; };
 		04F199BE2133E32800CE11A6 /* CalendarManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarManager.m; sourceTree = "<group>"; };
+		059FB6D4C97ACC5EEBF437C0 /* Pods-bridgeDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bridgeDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bridgeDemoTests/Pods-bridgeDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* bridgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bridgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -341,10 +412,21 @@
 		2D02E47B1E0B4A5D006451C7 /* bridgeDemo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bridgeDemo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* bridgeDemo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bridgeDemo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE1679858D91A7ED40FE16B /* Pods-bridgeDemo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bridgeDemo-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bridgeDemo-tvOS/Pods-bridgeDemo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4FDFCEBEDE0B32F1406127A2 /* libPods-bridgeDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bridgeDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		6A151DB1DB1A313AF183275E /* Pods-bridgeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bridgeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bridgeDemo/Pods-bridgeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		77A2A7CFE0D8FE35C5D7EFBD /* Pods-bridgeDemo-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bridgeDemo-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bridgeDemo-tvOSTests/Pods-bridgeDemo-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		7B178229BCE03600BFE2F218 /* libPods-bridgeDemo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bridgeDemo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8129A126841F8388F118F7D4 /* libPods-bridgeDemo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bridgeDemo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		8445AF1808C6852E06731CAA /* Pods-bridgeDemo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bridgeDemo-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bridgeDemo-tvOSTests/Pods-bridgeDemo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		969849554A5EF3ABE37440B9 /* Pods-bridgeDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bridgeDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bridgeDemoTests/Pods-bridgeDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5E90546F449C9FC7AED445D /* Pods-bridgeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bridgeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-bridgeDemo/Pods-bridgeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AC786681ACF3853A530D5F52 /* libPods-bridgeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bridgeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		C192DC6848A9D9F2BACAD052 /* Pods-bridgeDemo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bridgeDemo-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-bridgeDemo-tvOS/Pods-bridgeDemo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				AA53C456C8622CD87E52DA65 /* libPods-bridgeDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +443,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0492EDCB2137843200EFC97A /* libssl.a in Frameworks */,
+				0492EDCC2137843200EFC97A /* libcrypto.a in Frameworks */,
+				0492EDC82137840600EFC97A /* CoreLocation.framework in Frameworks */,
+				0492EDC6213783FC00EFC97A /* QuartzCore.framework in Frameworks */,
+				0492EDC4213783EE00EFC97A /* OpenGLES.framework in Frameworks */,
+				0492EDC2213783D600EFC97A /* SystemConfiguration.framework in Frameworks */,
+				0492EDC0213783CA00EFC97A /* CoreGraphics.framework in Frameworks */,
+				0492EDBE213783B100EFC97A /* Security.framework in Frameworks */,
+				0492EDBC2137839600EFC97A /* libsqlite3.0.tbd in Frameworks */,
+				0492EDBA2137838C00EFC97A /* CoreTelephony.framework in Frameworks */,
+				0492EDB82137837400EFC97A /* libstdc++.6.0.9.tbd in Frameworks */,
+				0492EDB02137835500EFC97A /* BaiduMapAPI_Map.framework in Frameworks */,
+				0492EDB12137835500EFC97A /* BaiduMapAPI_Utils.framework in Frameworks */,
+				0492EDB22137835500EFC97A /* BaiduMapAPI_Base.framework in Frameworks */,
+				0492EDB32137835500EFC97A /* BaiduMapAPI_Radar.framework in Frameworks */,
+				0492EDB42137835500EFC97A /* BaiduMapAPI_Location.framework in Frameworks */,
+				0492EDB52137835500EFC97A /* BaiduMapAPI_Cloud.framework in Frameworks */,
+				0492EDB62137835500EFC97A /* BaiduMapAPI_Search.framework in Frameworks */,
+				0492ED5721369E4A00EFC97A /* CoreBluetooth.framework in Frameworks */,
+				0492ED5321369E1100EFC97A /* TTLock.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
@@ -373,6 +476,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				B552F72AF3EADF5526A9E0EA /* libPods-bridgeDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +492,7 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
+				EB8A0F18F13B3EA98DBFA603 /* libPods-bridgeDemo-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +500,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41D1BFD3B1653B2020E15C5F /* libPods-bridgeDemo-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +566,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		02EF6EFC3C410BC672ECDBE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A151DB1DB1A313AF183275E /* Pods-bridgeDemo.debug.xcconfig */,
+				A5E90546F449C9FC7AED445D /* Pods-bridgeDemo.release.xcconfig */,
+				4CE1679858D91A7ED40FE16B /* Pods-bridgeDemo-tvOS.debug.xcconfig */,
+				C192DC6848A9D9F2BACAD052 /* Pods-bridgeDemo-tvOS.release.xcconfig */,
+				77A2A7CFE0D8FE35C5D7EFBD /* Pods-bridgeDemo-tvOSTests.debug.xcconfig */,
+				8445AF1808C6852E06731CAA /* Pods-bridgeDemo-tvOSTests.release.xcconfig */,
+				969849554A5EF3ABE37440B9 /* Pods-bridgeDemoTests.debug.xcconfig */,
+				059FB6D4C97ACC5EEBF437C0 /* Pods-bridgeDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -492,6 +613,12 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				04F199882133E2FA00CE11A6 /* CalendarManager.h */,
 				04F199BE2133E32800CE11A6 /* CalendarManager.m */,
+				0492ED592136A0F400EFC97A /* TTLock.m */,
+				0492ED5B2136A10E00EFC97A /* TTLock.h */,
+				0492EDD1213785F400EFC97A /* RCTBDMap.h */,
+				0492EDD22137862B00EFC97A /* RCTBDMapManager.h */,
+				0492EDD32137865100EFC97A /* RCTBDMapManager.m */,
+				0492EE2C2137D86900EFC97A /* RCTBDMap.m */,
 			);
 			name = bridgeDemo;
 			sourceTree = "<group>";
@@ -522,7 +649,31 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0492EDCA2137843200EFC97A /* libcrypto.a */,
+				0492EDC92137843200EFC97A /* libssl.a */,
+				0492EDC72137840600EFC97A /* CoreLocation.framework */,
+				0492EDC5213783FC00EFC97A /* QuartzCore.framework */,
+				0492EDC3213783EE00EFC97A /* OpenGLES.framework */,
+				0492EDC1213783D600EFC97A /* SystemConfiguration.framework */,
+				0492EDBF213783C900EFC97A /* CoreGraphics.framework */,
+				0492EDBD213783B100EFC97A /* Security.framework */,
+				0492EDBB2137839600EFC97A /* libsqlite3.0.tbd */,
+				0492EDB92137838C00EFC97A /* CoreTelephony.framework */,
+				0492EDB72137837400EFC97A /* libstdc++.6.0.9.tbd */,
+				0492EDAB2137835400EFC97A /* BaiduMapAPI_Base.framework */,
+				0492EDAE2137835400EFC97A /* BaiduMapAPI_Cloud.framework */,
+				0492EDAD2137835400EFC97A /* BaiduMapAPI_Location.framework */,
+				0492ED842137835400EFC97A /* BaiduMapAPI_Map.framework */,
+				0492EDAC2137835400EFC97A /* BaiduMapAPI_Radar.framework */,
+				0492EDAF2137835500EFC97A /* BaiduMapAPI_Search.framework */,
+				0492EDAA2137835400EFC97A /* BaiduMapAPI_Utils.framework */,
+				0492ED2D21369E1100EFC97A /* TTLock.framework */,
+				0492ED5621369E4A00EFC97A /* CoreBluetooth.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				AC786681ACF3853A530D5F52 /* libPods-bridgeDemo.a */,
+				7B178229BCE03600BFE2F218 /* libPods-bridgeDemo-tvOS.a */,
+				8129A126841F8388F118F7D4 /* libPods-bridgeDemo-tvOSTests.a */,
+				4FDFCEBEDE0B32F1406127A2 /* libPods-bridgeDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -576,11 +727,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				0492EDCF213784D700EFC97A /* mapapi.bundle */,
 				13B07FAE1A68108700A75B9A /* bridgeDemo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* bridgeDemoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				02EF6EFC3C410BC672ECDBE2 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -614,6 +767,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "bridgeDemoTests" */;
 			buildPhases = (
+				B44309834CFD693715B1AAC0 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -632,10 +786,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "bridgeDemo" */;
 			buildPhases = (
+				70D7A6B0893B90772B2E55B1 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				5E0E5DA88193B409B8C639F0 /* [CP] Embed Pods Frameworks */,
+				0492ED5521369E1100EFC97A /* Embed Frameworks */,
+				0492ED5821369ECF00EFC97A /* ShellScript */,
+				FB52AC95A578047F7D7E09D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -650,6 +809,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "bridgeDemo-tvOS" */;
 			buildPhases = (
+				BCFAB64159B263BA55E07EB8 /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
@@ -668,6 +828,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "bridgeDemo-tvOSTests" */;
 			buildPhases = (
+				6AF5541D0FBFAC117C8A2D56 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -1051,6 +1212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0492EDD0213784D800EFC97A /* mapapi.bundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
@@ -1088,6 +1250,20 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		0492ED5821369ECF00EFC97A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/util/BLE/TTLock.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\n# This script loops through the frameworks embedded in the application and\n\n# removes unused architectures.\n\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\n\ndo\n\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\n\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\n\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\n\ndo\n\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\n\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\n\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\n\ndone\n\necho \"Merging extracted architectures: \"\n\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\n\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\n\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\n\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone";
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1101,6 +1277,114 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		5E0E5DA88193B409B8C639F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-bridgeDemo/Pods-bridgeDemo-frameworks.sh",
+				"${PODS_ROOT}/TTLock/TTLockFrameworks/TTLock.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTLock.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bridgeDemo/Pods-bridgeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AF5541D0FBFAC117C8A2D56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bridgeDemo-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70D7A6B0893B90772B2E55B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bridgeDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B44309834CFD693715B1AAC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bridgeDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCFAB64159B263BA55E07EB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bridgeDemo-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB52AC95A578047F7D7E09D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-bridgeDemo/Pods-bridgeDemo-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bridgeDemo/Pods-bridgeDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1117,6 +1401,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0492EE2E2137D8B300EFC97A /* RCTBDMapManager.m in Sources */,
+				0492ED5A2136A0F400EFC97A /* TTLock.m in Sources */,
+				0492EE2D2137D86900EFC97A /* RCTBDMap.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				04F199BF2133E32800CE11A6 /* CalendarManager.m in Sources */,
@@ -1170,6 +1457,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 969849554A5EF3ABE37440B9 /* Pods-bridgeDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1190,6 +1478,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059FB6D4C97ACC5EEBF437C0 /* Pods-bridgeDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1207,17 +1496,28 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A151DB1DB1A313AF183275E /* Pods-bridgeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
 				INFOPLIST_FILE = bridgeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/BaiduMapKit/BaiduMapKit/thirdlibs",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.bridgeDemo;
 				PRODUCT_NAME = bridgeDemo;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1225,16 +1525,27 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E90546F449C9FC7AED445D /* Pods-bridgeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
 				INFOPLIST_FILE = bridgeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/BaiduMapKit/BaiduMapKit/thirdlibs",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.bridgeDemo;
 				PRODUCT_NAME = bridgeDemo;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1242,6 +1553,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE1679858D91A7ED40FE16B /* Pods-bridgeDemo-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1268,6 +1580,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C192DC6848A9D9F2BACAD052 /* Pods-bridgeDemo-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1294,6 +1607,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A2A7CFE0D8FE35C5D7EFBD /* Pods-bridgeDemo-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1315,6 +1629,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8445AF1808C6852E06731CAA /* Pods-bridgeDemo-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

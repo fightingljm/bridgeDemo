@@ -112,6 +112,12 @@ android {
             jniLibs.srcDirs = ['libs']
         }
     }
+    //添加本地仓库，并把libs目录作为仓库地址
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
     splits {
         abi {
             reset()
@@ -143,6 +149,9 @@ android {
 
 dependencies {
     compile fileTree(dir: "libs", include: ["*.jar"])
+    //ttlock SDK
+    compile(name: 'ttlock-sdk-2.0', ext: 'aar')
+    compile(name: 'ttlock-gateway-sdk-2.0', ext: 'aar')
     compile "com.android.support:appcompat-v7:23.0.1"
     compile "com.facebook.react:react-native:+"  // From node_modules
 }
