@@ -1,7 +1,6 @@
-// TTLockModule.java
+// TTLock.java
 
 package com.bridgedemo;
-
 import android.app.Activity;
 import android.content.Context;
 import android.util.Log;
@@ -14,8 +13,8 @@ import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.BaseActivityEventListener;
 import com.facebook.react.bridge.ActivityEventListener;
-import com.facebook.react.bridge.WritableMap;
 
+import com.facebook.react.bridge.WritableMap;
 import com.ttlock.bl.sdk.api.TTLockAPI;
 import com.ttlock.bl.sdk.callback.TTLockCallback;
 import com.ttlock.bl.sdk.entity.DeviceInfo;
@@ -23,7 +22,7 @@ import com.ttlock.bl.sdk.entity.Error;
 import com.ttlock.bl.sdk.entity.LockData;
 import com.ttlock.bl.sdk.scanner.ExtendedBluetoothDevice;
 
-public class TTLockModule  extends ReactContextBaseJavaModule {
+public class TTLock extends ReactContextBaseJavaModule {
 
     public static Context mContext;
     public static ExtendedBluetoothDevice mExtendedBluetoothDevice;

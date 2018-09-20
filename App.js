@@ -14,7 +14,8 @@ import {
   NativeModules,
   ScrollView,
   SafeAreaView,
-  requireNativeComponent
+  requireNativeComponent,
+  DeviceEventEmitter
 } from "react-native";
 import BDMapView from "./BDMapView";
 
@@ -47,11 +48,27 @@ export default class App extends Component<{}> {
   }
   componentDidMount(){
     if (Platform.OS==='android'){
-      ToastExample.show("Awesome", ToastExample.SHORT);
-      MyLBS.startLocation((location) => {
-        this.setState({ location: location })
+      // ToastExample.show("Awesome", ToastExample.SHORT);
+      // MyLBS.startLocation((location) => {
+      //   this.setState({ location: location })
+      // });
+      let lockVersion = JSON.stringify(this.state.lockVersion)
+      console.warn(lockVersion)
+      // TTLock.unlockByUser(1700436704, JSON.stringify(lockVersion), 1537104120000, 1537190520000, 'MTE1LDExNywxMTUsMTEzLDEyMywxMTgsMTEzLDExMywxMTcsMTE1LDYx', 0, '4c,27,28,ae,66,82,39,b2,3b,bf,3d,41,78,d7,13,b7', 28800000)
+      //监听事件名为EventName的事件
+      DeviceEventEmitter.addListener('onFoundDevice', function (e) {
+        console.warn(e)
+        console.warn("发现锁")
       });
-      TTLock.initTTLock()
+      DeviceEventEmitter.addListener('onDeviceConnected', function (e) {
+        console.warn('链接成功')
+        // 由于rn的类型比较局限 所以这里使用字符串代替int long 类型，为了解决长度问题
+        TTLock.unlockByUser("1700436704", lockVersion, "1537104120000", "1537190520000", 'MTE1LDExNywxMTUsMTEzLDEyMywxMTgsMTEzLDExMywxMTcsMTE1LDYx', 0, '4c,27,28,ae,66,82,39,b2,3b,bf,3d,41,78,d7,13,b7', "28800000")
+      });
+      DeviceEventEmitter.addListener('onUnlock', function (e) {
+        console.warn('开锁成功')
+        alert("开锁成功");
+      });
     }
   }
   render() {

@@ -1,4 +1,4 @@
-// TTLockPackage.java
+// TTLockReactPackage.java
 
 package com.bridgedemo;
 
